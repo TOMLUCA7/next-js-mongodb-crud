@@ -29,8 +29,8 @@ export default async function TopicsList() {
           className="p-4 border border-slate-300 my-3 flex justify-between gap-5 items-start"
         >
           <div>
-            <h2 className="font-bold text-2xl text-orange-300">{t.title}</h2>
-            <div className="text-stone-500">{t.description}</div>
+            <h2 className="font-bold text-2xl text-sky-600">{t.title}</h2>
+            <div className="text-sky-300">{t.description}</div>
           </div>
 
           <div className="flex gap-2">
