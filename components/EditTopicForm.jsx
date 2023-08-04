@@ -28,6 +28,7 @@ const EditTopicForm = ({ id, title, description }) => {
 
       router.refresh();
       router.push("/");
+      
     } catch (error) {
       console.log(error);
     }
